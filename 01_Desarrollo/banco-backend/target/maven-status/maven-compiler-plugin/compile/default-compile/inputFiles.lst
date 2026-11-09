@@ -1,0 +1,17 @@
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\BancoBackendApplication.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\config\JpaConfig.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\config\MapperConfig.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\config\MessageConfig.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\controller\ClienteController.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\dto\ClienteDTO.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\exception\CustomErrorResponse.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\exception\GlobalErrorHandler.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\exception\ModelNotFoundException.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\model\Cliente.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\repo\IClienteRepo.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\repo\impl\ClienteRepoImpl.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\repo\IPostgreRepo.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\service\IClienteService.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\service\ICRUDService.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\service\impl\ClienteServiceImpl.java
+C:\Users\usistemas\Downloads\Practica01_DevOps\01_Desarrollo\banco-backend\src\main\java\com\hwongu\service\impl\CRUDImpl.java

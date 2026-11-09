@@ -1,0 +1,17 @@
+com\hwongu\model\Cliente.class
+com\hwongu\exception\CustomErrorResponse.class
+com\hwongu\repo\IPostgreRepo.class
+com\hwongu\dto\ClienteDTO.class
+com\hwongu\service\ICRUDService.class
+com\hwongu\service\impl\ClienteServiceImpl.class
+com\hwongu\exception\ModelNotFoundException.class
+com\hwongu\config\MapperConfig.class
+com\hwongu\exception\GlobalErrorHandler.class
+com\hwongu\service\impl\CRUDImpl.class
+com\hwongu\config\MessageConfig.class
+com\hwongu\BancoBackendApplication.class
+com\hwongu\controller\ClienteController.class
+com\hwongu\repo\IClienteRepo.class
+com\hwongu\config\JpaConfig.class
+com\hwongu\repo\impl\ClienteRepoImpl.class
+com\hwongu\service\IClienteService.class
