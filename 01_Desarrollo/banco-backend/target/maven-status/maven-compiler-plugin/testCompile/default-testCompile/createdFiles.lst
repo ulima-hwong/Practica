@@ -1,0 +1,7 @@
+com\hwongu\integration\service\CucumberSpringConfiguration.class
+com\hwongu\unit\controller\ClienteControllerTest.class
+com\hwongu\BancoBackendApplicationTests.class
+com\hwongu\unit\service\ClienteServiceTest.class
+com\hwongu\integration\service\CucumberTestRunner.class
+com\hwongu\integration\service\steps\ClienteServiceSteps.class
+com\hwongu\unit\controller\ClienteControllerTest$TestConfig.class
