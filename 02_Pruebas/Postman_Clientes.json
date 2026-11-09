@@ -1,0 +1,187 @@
+{
+  "info": {
+    "_postman_id": "c7f4df7a-2c5e-4f4f-b0e4-0d5ab4e0a901",
+    "name": "BancoBackend-Cliente-API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:9595/banco-backend"
+    },
+    {
+      "key": "clienteId",
+      "value": "1"
+    },
+    {
+      "key": "clienteName",
+      "value": "Carlos"
+    }
+  ],
+  "item": [
+    {
+      "name": "Cliente - Create",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nameCliente\": \"Carlos\",\n  \"lastNameCliente\": \"Perez\",\n  \"dniCliente\": \"12345678\",\n  \"emailCliente\": \"carlos.perez@mail.com\",\n  \"birthDateCliente\": \"2000-05-10\",\n  \"enabledCliente\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/clientes/create",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "create"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cliente - Update",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nameCliente\": \"Carlos Actualizado\",\n  \"lastNameCliente\": \"Perez\",\n  \"dniCliente\": \"12345678\",\n  \"emailCliente\": \"carlos.perez@mail.com\",\n  \"birthDateCliente\": \"2000-05-10\",\n  \"enabledCliente\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/clientes/update/{{clienteId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "update",
+            "{{clienteId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cliente - Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/clientes/delete/{{clienteId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "delete",
+            "{{clienteId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cliente - Read All",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/clientes/readAll",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "readAll"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cliente - Read By Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/clientes/readById/{{clienteId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "readById",
+            "{{clienteId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cliente - Find By Name",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/clientes/find/byName?name={{clienteName}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "find",
+            "byName"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "{{clienteName}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cliente - Find By Name Is Enabled",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/clientes/find/byNameIsEnabled?name={{clienteName}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "clientes",
+            "find",
+            "byNameIsEnabled"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "{{clienteName}}"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
